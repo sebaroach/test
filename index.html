@@ -1,47 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Test icons</title>
-
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 	<style type="text/css">
 		body {
 			background: #0C0943;
-			text-align: center;
+			
+			color: #fff;
+			font-family: Arial, Helvetica, sans-serif;
+			
+					}
+		
+		.video-card {
+			text-align: left;
+			margin: 0 auto;
+			width: fit-content;
+		}
+		.video-card h3 {text-align: left;}
+		video {
+			display:flex;
+			margin: 0 auto; text-align: center;}
+		
+		section {
+			display: block;
+			align-content: center;
+			align-items: center;
 		}
 	</style>
 	
 </head>
 <body>
+	<section>
+		<div class="video-card">
+			
+			<video width="800" height="100%" autoplay loop muted playsinline>
+				<source 
+					src="video/HEVC-Alpha/engage_team-1.mov" 
+					type='video/mp4; codecs="hvc1"'>
+				<source 
+					src="video/engage_team.webm" 
+					type="video/webm"> 
+			</video>
+		
+		</div>
+		<div class="video-card">
+			
+			<video width="800" height="100%" autoplay loop muted playsinline>
+				<source 
+					src="video/HEVC-Alpha/engage_adapt-1.mov" 
+					type='video/mp4; codecs="hvc1"'>
+				<source 
+					src="video/engage_adapt.webm" 
+					type="video/webm"> 
+			</video>
+		
+		</div>
+		<div class="video-card">
+			
+			<video width="800" height="100%" autoplay loop muted playsinline>
+				<source 
+					src="video/HEVC-Alpha/engage_easy-1.mov" 
+					type='video/mp4; codecs="hvc1"'>
+				<source 
+					src="video/engage_easy.webm" 
+					type="video/webm"> 
+			</video>
+		
+		</div>
+		<div class="video-card">
+			
+			<video width="800" height="100%" autoplay loop muted playsinline>
+				<source 
+					src="video/HEVC-Alpha/engage_flexibility-1.mov" 
+					type='video/mp4; codecs="hvc1"'>
+				<source 
+					src="video/engage_flexibility.webm" 
+					type="video/webm"> 
+			</video>
+		
+		</div>
+	 </section>
+	  
 
-	    
-	  <video width="600" height="100%" autoplay loop muted playsinline>
-	    <source 
-	        src="engage_team-2 2.mov" 
-	        type='video/mp4; codecs="hvc1"'>
-	    <source 
-	        src="engage_team.webm" 
-	        type="video/webm"> 
-	</video>
-	 <video width="600" height="100%" autoplay loop muted playsinline>
-	    <source 
-	        src="EA-05-hevc.mov" 
-	        type='video/mp4; codecs="hvc1"'>
-	    
-	</video>
- <video width="600" height="100%" autoplay loop muted playsinline>
-	    <source 
-	        src="output.mov" 
-	        type='video/mp4; codecs="hvc1"'>
-	    
-	</video>
-	<video width="600" height="100%" autoplay loop muted playsinline>
-	    <source 
-	        src="engage_adapt-1.mov" 
-	        type='video/mp4; codecs="hvc1"'>
-	    
-	</video>
 </body>
 
 </html>
